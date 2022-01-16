@@ -12,7 +12,7 @@ populateOnFormInput();
 
 function formSubmit(e) {
     e.preventDefault();
-    e.currentTaarget.reset();
+    e.currentTarget.reset();
     localStorage.removeItem('feedback-form-state');
     console.log("Delete text");
 }
